@@ -10,7 +10,7 @@ I solved and some of which I didn't. I wonder if there's just a conceptual probl
 tokens before I know if they're part of higher-order constructs in the language. (Like while loops and functions)
 
 I hope the evidence of effort and some structure here is enough to earn me a few points. All you need to do to parse
-is: (parse <yourfilenameinquotes>), assuming Parser.rkt is in the same working directory as your program.
+is: (parse "yourfilenameinquotes"), assuming Parser.rkt is in the same working directory as your program.
 
 If you're curious about the representation of lines as lists of tokens, I recommend uncommenting the (displayln tokens)
 function within the isLine? function.
